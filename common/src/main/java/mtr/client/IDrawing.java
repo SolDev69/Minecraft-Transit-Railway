@@ -2,8 +2,8 @@ package mtr.client;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
-import com.mojang.math.Matrix3f;
-import com.mojang.math.Matrix4f;
+import org.joml.Matrix3f;
+import org.joml.Matrix4f;
 import com.mojang.text2speech.Narrator;
 import mtr.MTR;
 import mtr.data.IGui;

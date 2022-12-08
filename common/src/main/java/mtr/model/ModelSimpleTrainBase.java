@@ -3,7 +3,7 @@ package mtr.model;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.Tesselator;
 import com.mojang.blaze3d.vertex.VertexConsumer;
-import com.mojang.math.Vector3f;
+import org.joml.Vector3f;
 import mtr.MTRClient;
 import mtr.client.DoorAnimationType;
 import mtr.client.IDrawing;

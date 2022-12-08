@@ -2,7 +2,7 @@ package mtr.model;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
-import com.mojang.math.Vector3f;
+import org.joml.Vector3f;
 import mtr.client.ClientData;
 import mtr.client.DoorAnimationType;
 import mtr.client.ScrollingText;

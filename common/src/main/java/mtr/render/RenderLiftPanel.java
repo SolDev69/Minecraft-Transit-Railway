@@ -2,7 +2,7 @@ package mtr.render;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.Tesselator;
-import com.mojang.math.Vector3f;
+import org.joml.Vector3f;
 import mtr.MTRClient;
 import mtr.block.BlockLiftPanelBase;
 import mtr.block.BlockLiftTrackFloor;
