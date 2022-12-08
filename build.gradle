@@ -87,7 +87,7 @@ task setupFiles() {
 	//System.out.println("Parchment: " + parchment_version)
 
 	download {
-		src "https://github.com/jonafanho/Minecraft-Mappings/archive/refs/heads/1.${minecraft_main_version}.zip"
+		src "https://github.com/SolDev69/Minecraft-Mappings/archive/refs/heads/1.${minecraft_main_version}.zip"
 		dest "common/src/main/java/mtr/mappings/mappings.zip"
 		overwrite true
 		retries - 1
