@@ -13,7 +13,7 @@ import mtr.mappings.UtilitiesClient;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.Gui;
-import net.minecraft.client.gui.components.Widget;
+import net.minecraft.client.gui.components.Renderable;
 import net.minecraft.client.gui.components.events.GuiEventListener;
 import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.player.LocalPlayer;
@@ -30,7 +30,7 @@ import java.util.function.BiFunction;
 import java.util.function.Consumer;
 
 
-public class WidgetMap implements Widget, SelectableMapper, GuiEventListener, IGui {
+public class WidgetMap implements Renderable, SelectableMapper, GuiEventListener, IGui {
 
 	private int x;
 	private int y;
