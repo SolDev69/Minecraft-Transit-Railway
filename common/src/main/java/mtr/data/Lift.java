@@ -304,7 +304,7 @@ public abstract class Lift extends NameColorDataBase implements IPacket {
 					if (!world.isClientSide) {
 						final BlockEntity blockEntity = world.getBlockEntity(getBlockPos());
 						if (blockEntity instanceof BlockLiftTrackFloor.TileEntityLiftTrackFloor && ((BlockLiftTrackFloor.TileEntityLiftTrackFloor) blockEntity).getShouldDing()) {
-							world.playSound(null, getBlockPos(), SoundEvents.NOTE_BLOCK_PLING, SoundSource.BLOCKS, 16, 2);
+							world.playSound(null, getBlockPos(), SoundEvents.NOTE_BLOCK_PLING.value(), SoundSource.BLOCKS, 16, 2);
 						}
 					}
 				} else {
